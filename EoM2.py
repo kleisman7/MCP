@@ -2,7 +2,6 @@ import numpy as np
 # p = np.array([xiA,xiB,xiC,xiX,chiA,chiB,chiC,chiX,Aext,Bext,Cext,Dext,kappa,gamma,beta,eta,Vratio,Nmet,dm])
 #               0   1   2   3   4    5    6    7    8    9    10   11   -7    -6    -5   -4  -3     -2   -1
 def deriv2(allvar,time, params,constext=False):
-#     constext = False   #######
     kappa = params[-7]
     gamma = params[-6]
     beta = params[-5]

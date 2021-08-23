@@ -1,5 +1,5 @@
 '''Parameters of system - Inputs'''
-Nmet = 3 # number of metabolites in system
+Nmet = 4 # number of metabolites in system
 constext = True # do constant exterior?
 Rc = 1.0e-5 #cm
 Kab = 0.5e3 #microM
